@@ -2,13 +2,15 @@ MySWeMosGWShield
 ==========
 
 ![NRF24L01 GW on the WeMos](https://raw.githubusercontent.com/emc2cube/MySWeMosGWShield/master/img/MySWeMosGWShield_nrf.jpg)
+![All adapters](https://raw.githubusercontent.com/emc2cube/MySWeMosGWShield/master/img/all_adapters.jpg)
+![PCB back view](https://raw.githubusercontent.com/emc2cube/MySWeMosGWShield/master/img/back.jpg)
 ![KiCad view](https://raw.githubusercontent.com/emc2cube/MySWeMosGWShield/master/img/kicad-pcb.png)
 
 
 Description
 -----------
 
-Simple [MySensors](http://www.mysensors.org) gateway [WeMos Mini](https://www.wemos.cc/product/d1-mini-pro.html) shield with support for 3 radio modules: SMD NRF24L01+, SMD PA+LNA NRF24L01+ or SMD RFM69HW.
+Simple [MySensors](http://www.mysensors.org) [WeMos Mini](https://www.wemos.cc/product/d1-mini-pro.html) gateway shield with support for 3 radio modules: SMD NRF24L01+, SMD PA+LNA NRF24L01+ or SMD RFM69HW.
 
 
 Ordering
@@ -25,6 +27,14 @@ Assembly
 
 Simply solder your favorite radio module to the corresponding trace and a 4.7 to 47µF SMD 0805 capacitor on the top side of the PCB.
 It is also recommended to solder the 0.1µF and 10µF SMD 0805 capacitors but not required unless you add some of the optional components.
+
+Radio module layout:
+- NRF24L01 PA+LNA
+![NRF24L01 PA+LNA shield](https://raw.githubusercontent.com/emc2cube/MySWeMosGWShield/master/img/nrf24palna.jpg)
+- NRF24L01
+![NRF24L01 shield](https://raw.githubusercontent.com/emc2cube/MySWeMosGWShield/master/img/nrf24.jpg)
+- RFM69HW
+![RFM69 shield](https://raw.githubusercontent.com/emc2cube/MySWeMosGWShield/master/img/rfm69.jpg)
 
 
 Optional components

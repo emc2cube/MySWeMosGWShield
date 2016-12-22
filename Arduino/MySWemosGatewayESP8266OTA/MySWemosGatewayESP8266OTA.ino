@@ -84,6 +84,7 @@
 // Disable this if you're not running the RFM69HW model (RFM69HW is recommended on the gateway for better coverage)
 #define MY_IS_RFM69HW
 
+
 // ** Mysensors additional functions **
 // Enable inclusion mode
 #define MY_INCLUSION_MODE_FEATURE
@@ -119,13 +120,6 @@
 #define MY_DEFAULT_ERR_LED_PIN LED_BUILTIN // Error led pin
 #define MY_DEFAULT_RX_LED_PIN  LED_BUILTIN // Receive led pin
 #define MY_DEFAULT_TX_LED_PIN  LED_BUILTIN // Transmit led pin
-
-/* Potentially allows to add LEDs by using TX and RX pins, works better when MY_DEBUG is disabled.
-  #define MY_WITH_LEDS_BLINKING_INVERSE
-  #define MY_DEFAULT_ERR_LED_PIN D1 // Error led pin
-  #define MY_DEFAULT_RX_LED_PIN  RX // Receive led pin
-  #define MY_DEFAULT_TX_LED_PIN  TX // Transmit led pin
-*/
 
 // Enable debug prints to serial monitor
 //#define MY_DEBUG
