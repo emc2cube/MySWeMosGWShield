@@ -111,7 +111,6 @@
 //#define MY_SIGNING_NODE_WHITELISTING {{.nodeId = GATEWAY_ADDRESS,.serial = {0x09,0x08,0x07,0x06,0x05,0x04,0x03,0x02,0x01}}}
 
 // Flash leds on rx/tx/err
-#define MY_LEDS_BLINKING_FEATURE
 // Set blinking period
 #define MY_DEFAULT_LED_BLINK_PERIOD 300
 
@@ -156,6 +155,7 @@
 // Define RFM69 pins to match PCB traces
 #if defined MY_RADIO_RFM69
 #define MY_RF69_IRQ_PIN D2  // GPIO 4
+#define MY_RF69_IRQ_NUM D2  // GPIO 4
 #define MY_RF69_SPI_CS  D8  // GPIO 15
 #endif
 

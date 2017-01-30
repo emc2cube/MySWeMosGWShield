@@ -85,7 +85,6 @@ Only a few pins are left to be used, depending on your configuration and the add
 - A0 (Analog input, max 3.3V input) is available if you don't use software signing.
 - D0 (GPIO16, IO) is available if you don't add/use an ATSHA chip for hardware signing.
 - D1 (GPIO5, IO, SCL) is always available.
-- D2 (GPIO4, IO, SDA) is available if you use a RFM69HW radio module. 
 - D3 (GPIO0, IO, 10k Pull-up) is available if you don't use an inclusion mode button.
 - D4 (GPIO2, IO, 10k Pull-up, BUILTIN_LED) is available if you don't use flash leds on rx/tx/err.
 - TX (GPIO1, TXD) is always available but used for serial communication.
