@@ -100,4 +100,4 @@ Version 1.0: Initial release.
 Special Kicad libraries
 ---------------
 
-This project use the [Kicad footrpints and templates for wemos D1 mini board](https://github.com/jerome-labidurie/d1_mini_kicad) library.
+This project use the [Kicad footprints and templates for WeMos D1 mini board](https://github.com/jerome-labidurie/d1_mini_kicad) library.

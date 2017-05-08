@@ -159,6 +159,8 @@
 #define MY_RF69_SPI_CS  D8  // GPIO 15
 #endif
 
+#define ARDUINO_ARCH_ESP8266
+
 #include <MySensors.h>
 
 
